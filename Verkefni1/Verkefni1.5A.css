@@ -1,0 +1,63 @@
+h1 
+{
+    color: blue;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+h2 
+{
+    color: brown;
+    display: block;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+h3 
+{
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+h4 
+{
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+}
+h5 
+{
+    display: block;
+    font-size: .75em;
+    font-weight: bold;
+}
+h6 
+{
+    display: block;
+    font-size: .5em;
+    font-weight: bold;
+}
+.Raudur
+{
+    color: red;
+}
+.Graen
+{
+    color: green;
+}
+.Blar
+{
+    color: blue;
+}
+p
+{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body
+{
+    border: 1px solid;
+    border-color: blue;
+    max-width: 60em;
+    margin: 1em auto;
+    padding: 1em;
+
+}
