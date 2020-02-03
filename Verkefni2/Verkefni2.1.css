@@ -51,3 +51,61 @@
     padding: 1em;
     margin: 1em;
 }
+
+.bigL
+{
+    font-size: 54px;
+    margin: 4px 16px;
+    float: left;
+}
+
+.group
+{
+   border-color: white;
+   box-sizing: content-box;
+   overflow: hidden;
+   width: 100%;
+   position: relative;
+}
+
+.box
+{
+    /*border: 1px solid;*/
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    width: 50%;
+    margin: 0px;
+    float: left;
+    overflow: hidden;
+    display: flexbox;
+    box-sizing: border-box;
+    right: 0;
+    top: 0;
+}
+
+section
+{
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-sizing: border-box;
+}
+
+.imgR
+{
+    float: right;
+    margin: 2%;
+    size: 100%;
+}
+
+span
+{
+    size: 50%;
+}
+
+.athugid
+{
+    background-color: yellow;
+}
