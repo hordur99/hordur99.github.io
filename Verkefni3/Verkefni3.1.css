@@ -1,0 +1,113 @@
+header
+{
+    grid-area: header;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+nav
+{
+    grid-area: nav;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    justify-content: space-evenly;
+    display: inline-block;
+    
+}
+main
+{
+    min-height: 100%;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+grid-area: main;
+grid-template-rows:repeat(auto-fit, minmax(100%, 1fr) ) ;
+grid-template-areas: 
+        "aside1 article aside2"
+        "aside1 article aside2"
+        "aside1 article aside2"
+        "aside1 article aside2";
+}
+article
+{
+    max-width: 100%;
+    min-height: auto;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+grid-area: article;
+    
+}
+.aside1
+{
+    max-width: 100%;
+    min-height: auto;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+grid-area: aside1;
+overflow-wrap: normal;
+}
+.aside2
+{
+    max-width: 100%;
+    min-height: auto;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+grid-area: aside2;
+}
+.box
+{
+    /*border: 1px solid;*/
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    margin: 2em;
+    float: left;
+    display: flexbox;
+    box-sizing: border-box;
+}
+footer
+{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    grid-area: footer;
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: minmax(auto, 3fr) minmax(auto, 7fr) minmax(auto, 3fr);
+    grid-template-rows: minmax(auto, 10%) minmax(auto, 5%)  minmax(min-content, 75%) minmax(auto, 10%);
+ 
+}
+body
+{
+    min-height: 100%;
+    grid-template-areas: 
+        "header header header"
+        "nav nav nav"
+        "main main main"
+        "footer footer footer";
+}
+html
+{
+    height: 100%;
+}
+
+.box2
+{
+    flex: 1;
+    text-align: center;
+}
+
+.row
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
