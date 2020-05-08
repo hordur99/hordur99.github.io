@@ -1,0 +1,230 @@
+*, *:before, *:after {
+  box-sizing: border-box; 
+}
+
+/* ====== GRID Area ====== */
+.topnav {
+  grid-area: topnav;
+  }
+  .header {
+  grid-area: header; 
+  }
+  .footer {
+  grid-area: footer;
+  }
+  .midja {
+  grid-area: midja;
+  overflow-wrap: normal;
+  }
+  .vinstri {
+  grid-area: vinstri;
+  overflow-wrap: normal;
+  }
+  .haegri {
+  grid-area: haegri;
+  overflow-wrap: normal;
+  }
+  .main{
+    grid-area: main;
+  }
+  
+  .verkefni
+  {
+    grid-area:verkefni;
+  }
+
+  .topnav
+  {
+    grid-area: topnav;
+  }
+  .topmenu
+  {
+    grid-area: topmenu;
+  }
+
+
+    .header {
+      background-image: url(myndir/Header80em.png);
+      background-size: 100%, 50%;
+      background-repeat: no-repeat;
+      min-height: 552px;
+      max-height: 552px;
+      width: auto;
+    
+    }
+
+    .footer {
+      background-image: url(myndir/Footer80em.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      min-height: 424px;
+      width: auto;
+    
+    }
+
+
+/* ====== Base CSS ====== */
+
+body {
+line-height: 1.5em;
+background: #006a6a;
+background: linear-gradient(#006a6a,#006a6a,#0e5c68);
+margin: 0em;
+}
+.innermenu
+{
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+	align-items: center;
+	justify-content: center;
+  
+}
+.innermenu a
+{
+  display: block;
+  text-align: center;
+  flex: 1;
+	text-align: center;
+  
+}
+main{
+    background-color: #fdeabf;
+    margin:0em 2em;
+    border-style: none solid;
+    border-color: black;
+    border-width: 1em;
+    padding: 8px;
+}
+
+
+
+
+.header,
+.footer,
+.midja,
+.vinstri, 
+.haegri {
+padding: 1em; 
+}
+
+.header h1 {
+color: #fff;
+line-height: 1.2;
+font-weight: normal;
+}
+.midja h2 {
+margin: .7em 0 .8em 0;
+}
+.midja h4 {
+text-align: justify;
+margin: .4em 0;
+}
+.midja p {
+text-align: justify;
+}
+/*  ========================================
+Viðmið - breakpoints 30em = 480px + 
+========================================*/
+
+@media only screen and (max-width: 30em)
+{
+  .header {
+    background-image: url(myndir/Header30em.png);
+    background-size: 100%, 50%;
+    background-repeat: no-repeat;
+    min-height: 276px;
+    max-height: 276px;
+    width: auto;
+  
+  }
+}
+
+
+
+/*  ========================================
+Viðmið - breakpoints 37.5em = 600px + 
+========================================*/
+
+@media only screen and (min-width: 37.5em)
+{
+  .header {
+    background-image: url(myndir/Header37.5em.png);
+    background-size: 100%, 50%;
+    background-repeat: no-repeat;
+    min-height: 345px;
+    max-height: 345px;
+    width: auto;
+  
+  }
+  
+}
+ 
+/* ========================================
+Viðmið - breakpoints 48em = 760px +
+======================================== */
+
+
+@media only screen and (min-width: 48em)
+{
+  .header {
+    background-image: url(myndir/Header48em.png);
+    background-size: 100%, 50%;
+    background-repeat: no-repeat;
+    min-height: 442px;
+    max-height: 442px;
+    width: auto;
+  
+  }
+
+}
+/* ========================================
+Viðmið - breakpoints 60em = 960px +
+======================================== */
+@media only screen and (min-width: 60em)
+{
+  .header {
+    background-image: url(myndir/Header60em.png);
+    background-size: 100%, 50%;
+    background-repeat: no-repeat;
+    min-height: 552px;
+    max-height: 552px;
+    width: auto;
+  
+  }
+
+}
+  
+
+/* ========================================
+Viðmið - breakpoints 80em = 1280px +
+======================================== */
+
+@media only screen and (min-width: 80em)
+{
+  .header {
+    background-image: url(myndir/Header80em.png);
+    background-size: 100%, 50%;
+    background-repeat: no-repeat;
+    min-height: 736px;
+    max-height: 736px;
+    width: auto;
+  
+  }
+
+
+}
+@media only screen and (min-width: 105em)
+{
+  .header {
+    background-image: url(myndir/Header105em.png);
+    background-size: 100%, 50%;
+    background-repeat: no-repeat;
+    min-height: 966px;
+    max-height: 966px;
+    width: auto;
+  
+  }
+
+
+}
