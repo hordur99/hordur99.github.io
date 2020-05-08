@@ -64,10 +64,23 @@
 
 
 /* ====== Base CSS ====== */
+.center{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  background-color: transparent;
+  border-style: none;
+  border-color: transparent;
+  outline: transparent;
+  color: black;
+}
 .topButton{
   position: fixed;
   right: 0em;
   bottom: 0em;
+  
 }
 .button
 {
@@ -80,6 +93,15 @@ background: #006a6a;
 background: linear-gradient(#006a6a,#006a6a,#0e5c68);
 margin: 0em;
 }
+.myndir{
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+	align-items: center;
+}
+.myndir img{
+  flex-grow: 1;
+}
 .topMenu
 {
   background-color: #004a4a;
@@ -87,18 +109,23 @@ margin: 0em;
   justify-content: center;
   flex-flow: row;
 	align-items: center;
+  color: #3B8C81;
   
 }
-h1,
-.topMenu a
+figcaption{
+  text-align: center;
+}
+.topMenu a,
+.topMenu h1
 {
-  
+  border-style: outset;
   border-color: #003535;
   border-style: solid;
   text-align: center;
   flex-grow: 1;
   margin: 0em;
   padding: 0.67em;
+  color: #3B8C81;
   
 }
 .topMenu a:hover {
@@ -117,13 +144,12 @@ main{
 
 h1{
   text-align: center;
-  background-color: #004a4a;
-  color: #3B8C81;
   margin: 0em;
   padding: 0.67em;
 }
-
-
+.kremadur{
+  color: purple;
+}
 
 
 .header,
@@ -239,11 +265,27 @@ Viðmið - breakpoints 80em = 1280px +
 
 
 }
-
+.myndband,
 .pokemon{
-  width: auto;
   align-content: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.myndir,
+.pokemon2{
+  display:flex;
+  flex-flow: row;
+	justify-content: center;
+	align-content: center;
+}
+.pokemon2{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img
+{
+  max-width: 100%;
+  max-height: 100%;
 }
