@@ -50,7 +50,7 @@
       min-height: 552px;
       max-height: 552px;
       width: auto;
-    
+      align-self: center;
     }
 
     .footer {
@@ -64,7 +64,16 @@
 
 
 /* ====== Base CSS ====== */
+.topButton{
+  position: fixed;
+  right: 0em;
+  bottom: 0em;
+}
+.button
+{
 
+  color: #3B8C81;
+}
 body {
 line-height: 1.5em;
 background: #006a6a;
@@ -73,21 +82,27 @@ margin: 0em;
 }
 .innermenu
 {
+  background-color: #004a4a;
   display: flex;
   justify-content: center;
   flex-flow: row;
 	align-items: center;
-	justify-content: center;
   
 }
 .innermenu a
 {
-  display: block;
+  
+  border-color: #003535;
+  border-style: solid;
   text-align: center;
-  flex: 1;
-	text-align: center;
+  flex-grow: 1;
   
 }
+.innermenu a:hover {
+  background-color: #003535;
+  border-color: #001f1f;
+}
+
 main{
     background-color: #fdeabf;
     margin:0em 2em;
@@ -227,4 +242,12 @@ Viðmið - breakpoints 80em = 1280px +
   }
 
 
+}
+
+.pokemon{
+  width: auto;
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
