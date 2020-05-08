@@ -80,7 +80,7 @@ background: #006a6a;
 background: linear-gradient(#006a6a,#006a6a,#0e5c68);
 margin: 0em;
 }
-.innermenu
+.topMenu
 {
   background-color: #004a4a;
   display: flex;
@@ -89,16 +89,19 @@ margin: 0em;
 	align-items: center;
   
 }
-.innermenu a
+h1,
+.topMenu a
 {
   
   border-color: #003535;
   border-style: solid;
   text-align: center;
   flex-grow: 1;
+  margin: 0em;
+  padding: 0.67em;
   
 }
-.innermenu a:hover {
+.topMenu a:hover {
   background-color: #003535;
   border-color: #001f1f;
 }
@@ -112,6 +115,14 @@ main{
     padding: 8px;
 }
 
+h1{
+  text-align: center;
+  background-color: #004a4a;
+  color: #3B8C81;
+  margin: 0em;
+  padding: 0.67em;
+}
+
 
 
 
@@ -123,21 +134,6 @@ main{
 padding: 1em; 
 }
 
-.header h1 {
-color: #fff;
-line-height: 1.2;
-font-weight: normal;
-}
-.midja h2 {
-margin: .7em 0 .8em 0;
-}
-.midja h4 {
-text-align: justify;
-margin: .4em 0;
-}
-.midja p {
-text-align: justify;
-}
 /*  ========================================
 Viðmið - breakpoints 30em = 480px + 
 ========================================*/
